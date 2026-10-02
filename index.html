@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farrell Engelbert - Portofolio & Profil</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- NAVBAR -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+                Farrell Engelbert
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-indigo-400 transition">Tentang</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Keahlian</a>
+                <a href="#portfolio" class="hover:text-indigo-400 transition">Proyek</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Kontak</a>
+            </nav>
+            <a href="https://wa.me/6281345452006" target="_blank" class="hidden md:inline-block px-4 py-2 text-xs font-medium text-white bg-emerald-600 rounded-full hover:bg-emerald-500 transition shadow-lg shadow-emerald-500/20">
+                <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-950/40 via-slate-950 to-slate-950 relative overflow-hidden">
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6 text-center md:text-left">
+                <span class="inline-flex items-center gap-2 px-3.5 py-1.5 text-xs font-medium text-indigo-400 bg-indigo-500/10 rounded-full border border-indigo-500/20">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Halo, Selamat Datang 👋
+                </span>
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+                    Saya <span class="bg-gradient-to-r from-indigo-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent">Farrell Engelbert</span>
+                </h1>
+                <p class="text-lg text-slate-400 max-w-lg mx-auto md:mx-0 leading-relaxed">
+                    Mahasiswa Sistem Informasi & Presiden Mahasiswa BEM yang berfokus pada pengembangan perangkat lunak, sistem manajemen database, serta analisis data.
+                </p>
+                <div class="flex justify-center md:justify-start gap-4 pt-2">
+                    <a href="#portfolio" class="px-6 py-3 text-sm font-semibold text-white bg-indigo-600 rounded-xl hover:bg-indigo-500 transition shadow-lg shadow-indigo-500/30">
+                        Lihat Proyek
+                    </a>
+                    <a href="#contact" class="px-6 py-3 text-sm font-semibold text-slate-300 bg-slate-900 border border-slate-800 rounded-xl hover:bg-slate-800 hover:text-white transition">
+                        Hubungi Saya
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="relative w-72 h-72 md:w-80 md:h-80">
+                    <div class="absolute -0 bg-gradient-to-tr from-indigo-500 to-cyan-400 rounded-3xl rotate-6 opacity-30 blur-xl"></div>
+                    <div class="relative w-full h-full bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden flex flex-col items-center justify-center shadow-2xl group">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                        <i class="fa-solid fa-code text-7xl text-indigo-400 mb-2 group-hover:scale-110 transition duration-300"></i>
+                        <span class="text-xs font-medium text-slate-400 tracking-wider uppercase">System Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 px-6 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold tracking-tight">Tentang Saya</h2>
+                <p class="text-slate-400 mt-2">Sedikit informasi mengenai latar belakang dan profil diri saya.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center bg-slate-900 border border-slate-800/80 p-8 rounded-3xl shadow-xl">
+                <!-- Foto Profil dari folder static/profil.JPG -->
+                <!-- Foto Profil dari folder static/profil.JPG -->
+                <div class="md:col-span-1 flex justify-center">
+                    <div class="w-40 h-40 rounded-2xl overflow-hidden border-2 border-indigo-500/40 shadow-lg group">
+                        <img src="static/profil.JPG" alt="Farrell Engelbert" class="w-full h-full object-cover object-[center_19%] group-hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <div class="md:col-span-2 space-y-4 text-slate-300 text-sm md:text-base leading-relaxed">
+                    <p>
+                        Halo! Saya adalah individu yang antusias dan berdedikasi tinggi dalam mengeksplorasi dunia teknologi informasi dan manajemen sistem. Aktif berorganisasi serta berpengalaman merancang aplikasi fungsional dan tata kelola data.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-2 text-xs md:text-sm border-t border-slate-800">
+                        <div><strong class="text-white">Pendidikan:</strong> Sistem Informasi</div>
+                        <div><strong class="text-white">Lokasi:</strong> Pekanbaru, Indonesia</div>
+                        <div><strong class="text-white">Email:</strong> farrelleng16@gmail.com</div>
+                        <div><strong class="text-white">Status:</strong> Mahasiswa / Aktif</div>
+                        <div><strong class="text-white">WhatsApp:</strong> 0813-4545-2006</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-24 px-6 bg-slate-950">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold tracking-tight">Keahlian & Teknologi</h2>
+                <p class="text-slate-400 mt-2">Alat dan bahasa pemrograman yang biasa saya gunakan.</p>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                <!-- Skill Item -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center hover:border-indigo-500 transition group shadow-md">
+                    <i class="fa-brands fa-python text-4xl text-indigo-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h3 class="font-semibold text-sm text-slate-200">Python</h3>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center hover:border-indigo-500 transition group shadow-md">
+                    <i class="fa-brands fa-java text-4xl text-orange-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h3 class="font-semibold text-sm text-slate-200">Java</h3>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center hover:border-indigo-500 transition group shadow-md">
+                    <i class="fa-brands fa-php text-4xl text-blue-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h3 class="font-semibold text-sm text-slate-200">PHP & MySQL</h3>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center hover:border-indigo-500 transition group shadow-md">
+                    <i class="fa-solid fa-database text-4xl text-cyan-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h3 class="font-semibold text-sm text-slate-200">Database SQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO / PROJECTS SECTION -->
+    <section id="portfolio" class="py-24 px-6 bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold tracking-tight">Proyek Pilihan</h2>
+                <p class="text-slate-400 mt-2">Beberapa proyek atau aplikasi unggulan yang pernah saya kerjakan.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Project 1: Contract Management System -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-xl hover:border-emerald-500/50 transition group">
+                    <div class="h-56 bg-slate-950 relative overflow-hidden border-b border-slate-800 flex items-center justify-center">
+                        <img src="static/contract-system.png" alt="Contract Monitoring System" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">Contract Management System</h3>
+                            <span class="px-2.5 py-1 text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">Enterprise</span>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Sistem pemantauan kontrak korporat dan vendor, pelacakan adendum waktu, rekapitulasi bank garansi, serta analitik visual progres pekerjaan rekanan secara *real-time*.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-emerald-400 rounded-md border border-slate-700">Dashboard UI</span>
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Database & Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Sistem Pengolahan Data -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-xl hover:border-indigo-500/50 transition group">
+                    <div class="h-56 bg-slate-950 flex items-center justify-center border-b border-slate-800 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-indigo-950/40 to-slate-900/80"></div>
+                        <i class="fa-solid fa-laptop-code text-6xl text-indigo-400/80 group-hover:scale-110 transition duration-300 relative z-10"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-bold text-white group-hover:text-indigo-400 transition">Sistem Pengolahan Data</h3>
+                            <span class="px-2.5 py-1 text-[10px] font-semibold bg-indigo-500/10 text-indigo-400 rounded-md border border-slate-700/20">Desktop / Web</span>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Aplikasi berbasis desktop/web dengan fitur CRUD lengkap untuk manajemen data operasional secara efisien dan terstruktur[cite: 1].
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-indigo-400 rounded-md border border-slate-700">Java / PHP</span>
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-cyan-400 rounded-md border border-slate-700">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Analisis Dataset & Visualisasi -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-xl hover:border-indigo-500/50 transition group md:col-span-2 max-w-2xl mx-auto w-full">
+                    <div class="h-44 bg-slate-950 flex items-center justify-center border-b border-slate-800 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-cyan-950/40 to-slate-900/80"></div>
+                        <i class="fa-solid fa-chart-pie text-6xl text-cyan-400/80 group-hover:scale-110 transition duration-300 relative z-10"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition">Analisis Dataset & Visualisasi</h3>
+                            <span class="px-2.5 py-1 text-[10px] font-semibold bg-cyan-500/10 text-cyan-400 rounded-md border border-cyan-500/20">Data Analytics</span>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Proyek pengolahan data statistik mendalam, pembuatan laporan otomatis, dan visualisasi grafik interaktif untuk mendukung proses pengambilan keputusan[cite: 1].
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-indigo-400 rounded-md border border-slate-700">Excel / SPSS</span>
+                            <span class="px-2.5 py-1 text-xs font-medium bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Data Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 px-6 bg-slate-950 border-t border-slate-900">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold tracking-tight">Hubungi Kami</h2>
+            <p class="text-slate-400 mt-2 mb-8">Punya pertanyaan, kolaborasi proyek, atau sekadar ingin menyapa? Silakan hubungi saya melalui tautan di bawah ini.</p>
+            <div class="flex justify-center gap-6 text-2xl mb-8">
+                <a href="https://wa.me/6281345452006" target="_blank" class="w-12 h-12 bg-slate-900 border border-slate-800 rounded-full flex items-center justify-center text-slate-300 hover:text-emerald-400 hover:border-emerald-500 transition shadow-md" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/farrell111" target="_blank" class="w-12 h-12 bg-slate-900 border border-slate-800 rounded-full flex items-center justify-center text-slate-300 hover:text-indigo-400 hover:border-indigo-500 transition shadow-md">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/farrelleng16" target="_blank" class="w-12 h-12 bg-slate-900 border border-slate-800 rounded-full flex items-center justify-center text-slate-300 hover:text-indigo-400 hover:border-indigo-500 transition shadow-md">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/farrelleng_?stkn=ZjF5eDJudjhtZnRw&utm_source=qr" target="_blank" class="w-12 h-12 bg-slate-900 border border-slate-800 rounded-full flex items-center justify-center text-slate-300 hover:text-indigo-400 hover:border-indigo-500 transition shadow-md">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:farrelleng16@gmail.com" class="w-12 h-12 bg-slate-900 border border-slate-800 rounded-full flex items-center justify-center text-slate-300 hover:text-indigo-400 hover:border-indigo-500 transition shadow-md">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center text-xs text-slate-500 bg-slate-950 border-t border-slate-900/80">
+        <p>&copy; 2026 Farrell Engelbert. Dibuat dengan semangat dan teknologi modern.</p>
+    </footer>
+
+</body>
+</html>
